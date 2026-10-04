@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row align-items-center justify-content-center" style="min-height: 70vh;">
+    <div class="col-lg-8">
+        <div class="card p-5 text-center shadow-lg border-0" style="background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(20px);">
+            <div class="mb-4">
+                <i class="fa-solid fa-heart-pulse fa-4x text-primary mb-3" style="filter: drop-shadow(0 0 10px rgba(99,102,241,0.6));"></i>
+            </div>
+            <h1 class="display-4 fw-bold text-white mb-3" style="font-family: 'Outfit', sans-serif;">Intelligent Healthcare <br><span class="text-primary">At Your Fingertips</span></h1>
+            <p class="lead text-muted mb-5 px-md-5" style="font-size: 1.15rem;">Get instant access to AI-powered medical insights, symptom analysis, and healthcare information powered by advanced vector retrieval algorithms.</p>
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                {% if session.get('user_id') %}
+                <a href="/chat" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-lg"><i class="fa-solid fa-comments me-2"></i> Continue Chat</a>
+                {% else %}
+                <a href="/login" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-lg"><i class="fa-solid fa-arrow-right-to-bracket me-2"></i> Get Started</a>
+                <a href="/register" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill ms-sm-3" style="border: 2px solid rgba(255,255,255,0.2);"><i class="fa-solid fa-user-plus me-2"></i> Register</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

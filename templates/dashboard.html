@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome, {{ session['username'] }}</h2>
+<div class="mt-4">
+    <a href="/chat" class="btn btn-success">Start New Chat</a>
+    <a href="/history" class="btn btn-secondary">View History</a>
+</div>
+{% endblock %}

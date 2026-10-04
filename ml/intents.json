@@ -1,0 +1,146 @@
+[
+  {
+    "intent": "greeting",
+    "examples": ["hello", "hi", "hey", "good morning", "good afternoon", "greetings", "howdy", "hiya", "how are you"]
+  },
+  {
+    "intent": "goodbye",
+    "examples": ["bye", "goodbye", "see you", "later", "take care", "adios", "bye bye", "catch you later"]
+  },
+  {
+    "intent": "thanks",
+    "examples": ["thanks", "thank you", "appreciate it", "thanks a lot", "thank you so much", "many thanks"]
+  },
+  {
+    "intent": "headache",
+    "examples": ["I have a headache", "my head hurts", "headache", "pounding head", "head is throbbing", "how to cure a headache", "what should I do for a headache"]
+  },
+  {
+    "intent": "migraine",
+    "examples": ["I have a migraine", "severe migraine", "migraine aura", "migraine treatment", "one side of my head hurts a lot", "sensitivity to light and sound head pain"]
+  },
+  {
+    "intent": "fever",
+    "examples": ["I have a fever", "high temperature", "feverish", "feeling hot and cold", "I feel hot", "my body is burning up", "what should I do if I have a fever"]
+  },
+  {
+    "intent": "common_cold",
+    "examples": ["I have a cold", "runny nose", "stuffy nose", "sneezing a lot", "I caught a cold", "how to treat a cold"]
+  },
+  {
+    "intent": "flu",
+    "examples": ["I have the flu", "what are symptoms of flu", "flu symptoms", "influenza", "body aches and fever"]
+  },
+  {
+    "intent": "cough",
+    "examples": ["I have a bad cough", "coughing a lot", "dry cough", "wet cough", "cannot stop coughing", "cough remedy"]
+  },
+  {
+    "intent": "sore_throat",
+    "examples": ["sore throat", "my throat hurts", "scratchy throat", "pain when swallowing", "how to soothe a sore throat"]
+  },
+  {
+    "intent": "allergy",
+    "examples": ["I have allergies", "allergic reaction", "itchy eyes and sneezing", "seasonal allergies", "hay fever"]
+  },
+  {
+    "intent": "asthma",
+    "examples": ["asthma attack", "wheezing", "asthma symptoms", "how to manage asthma", "shortness of breath from asthma"]
+  },
+  {
+    "intent": "chickenpox",
+    "examples": ["what are the symptoms of chickenpox", "chickenpox", "itchy blisters all over", "does my child have chicken pox", "chickenpox treatment"]
+  },
+  {
+    "intent": "skin_rash",
+    "examples": ["skin rash", "itchy red skin", "I have a rash", "hives", "what to do for a skin rash"]
+  },
+  {
+    "intent": "acne",
+    "examples": ["pimples", "acne breakout", "how to clear acne", "how to treat acne", "zits on my face"]
+  },
+  {
+    "intent": "stomach_pain",
+    "examples": ["stomach pain", "my stomach hurts", "tummy ache", "abdominal pain", "cramps in stomach"]
+  },
+  {
+    "intent": "vomiting",
+    "examples": ["vomiting", "throwing up", "I feel sick to my stomach", "nausea and vomiting", "how to stop vomiting"]
+  },
+  {
+    "intent": "diarrhea",
+    "examples": ["diarrhea", "loose stools", "upset stomach", "frequent bowel movements"]
+  },
+  {
+    "intent": "constipation",
+    "examples": ["constipation", "can't poop", "hard stools", "trouble passing stool", "how to relieve constipation"]
+  },
+  {
+    "intent": "food_poisoning",
+    "examples": ["food poisoning", "ate bad food", "sick after eating", "foodborne illness"]
+  },
+  {
+    "intent": "dehydration",
+    "examples": ["dehydration", "feeling dehydrated", "very thirsty", "dark urine and dry mouth"]
+  },
+  {
+    "intent": "fatigue",
+    "examples": ["fatigue", "feeling very tired", "exhausted all the time", "no energy", "constant tiredness"]
+  },
+  {
+    "intent": "brain_fog",
+    "examples": ["how to deal with brain fog", "brain fog", "can't concentrate", "trouble focusing", "mind feels cloudy", "mental confusion", "why am I unable to think clearly"]
+  },
+  {
+    "intent": "sleep_problem",
+    "examples": ["how can I improve my sleep", "insomnia", "can't sleep", "trouble falling asleep", "waking up tired", "sleep disorder"]
+  },
+  {
+    "intent": "stress",
+    "examples": ["I feel stressed", "too much stress", "stress management", "overwhelmed", "how to reduce stress"]
+  },
+  {
+    "intent": "anxiety",
+    "examples": ["anxiety", "feeling anxious", "panic attack", "anxious thoughts", "nervousness", "heart racing from anxiety"]
+  },
+  {
+    "intent": "back_pain",
+    "examples": ["back pain", "lower back hurts", "sore back", "sprained back", "how to relieve back pain"]
+  },
+  {
+    "intent": "nutrition",
+    "examples": ["nutrition advice", "healthy eating", "balanced diet", "what should I eat", "vitamins and minerals"]
+  },
+  {
+    "intent": "hydration",
+    "examples": ["how much water should I drink", "hydration", "drinking water benefits", "staying hydrated"]
+  },
+  {
+    "intent": "exercise",
+    "examples": ["exercise benefits", "workout tips", "physical activity", "how often should I exercise", "fitness advice"]
+  },
+  {
+    "intent": "healthy_lifestyle",
+    "examples": ["how can I maintain a healthy lifestyle", "healthy habits", "living healthy", "wellness tips"]
+  },
+  {
+    "intent": "diabetes_awareness",
+    "examples": ["diabetes symptoms", "blood sugar levels", "signs of diabetes", "diabetic care"]
+  },
+  {
+    "intent": "blood_pressure_awareness",
+    "examples": ["high blood pressure", "hypertension", "blood pressure normal range", "how to lower blood pressure"]
+  },
+  {
+    "intent": "doctor_consultation",
+    "examples": ["when should I see a doctor", "do I need a doctor", "should I go to the hospital", "medical consultation"]
+  },
+  {
+    "intent": "emergency",
+    "examples": ["I have severe chest pain and cannot breathe", "I am having a seizure", "I am bleeding heavily", "I think I am having a stroke", "unconscious"]
+  },
+  {
+    "intent": "unknown",
+    "examples": ["asdf random xyz", "how do I fix my car", "what is the capital of france", "random text here", "who won the game"]
+  }
+]

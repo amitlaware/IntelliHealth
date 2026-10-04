@@ -1,0 +1,4 @@
+const input=document.getElementById("message"),send=document.getElementById("send"),chat=document.getElementById("chat");
+function add(text,cls){const d=document.createElement("div");d.className=cls;d.textContent=text;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
+async function sendMessage(){const message=input.value.trim();if(!message)return;add(message,"user-msg");input.value="";send.disabled=true;try{const r=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message})});const d=await r.json();add(d.response||d.error||"Something went wrong.","bot-msg")}catch(e){add("Unable to connect to the server.","bot-msg")}finally{send.disabled=false;input.focus()}}
+send.onclick=sendMessage;input.onkeydown=e=>{if(e.key==="Enter")sendMessage()};document.querySelectorAll(".suggestion").forEach(b=>b.onclick=()=>{input.value=b.textContent;sendMessage()});

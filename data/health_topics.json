@@ -1,0 +1,278 @@
+[
+  {
+    "intent": "headache",
+    "topic": "Headache",
+    "aliases": [
+      "head ache",
+      "migraine",
+      "head pain",
+      "pounding head"
+    ],
+    "keywords": [
+      "tension",
+      "throbbing",
+      "temples"
+    ],
+    "description": "A headache is a pain in any region of the head. It can occur on one or both sides of the head.",
+    "common_symptoms": [
+      "Pain in the head",
+      "Sensitivity to light",
+      "Nausea"
+    ],
+    "general_guidance": [
+      "Rest in a quiet, dark room",
+      "Stay hydrated",
+      "Try relaxation techniques"
+    ],
+    "prevention": [
+      "Manage stress",
+      "Get enough sleep",
+      "Drink water"
+    ],
+    "seek_medical_help": "If it is severe, sudden, or accompanied by fever, stiff neck, or confusion.",
+    "emergency_warning_signs": [
+      "Sudden, severe headache",
+      "Headache with fever and stiff neck",
+      "Confusion or trouble understanding speech"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "brain_fog",
+    "topic": "Brain Fog",
+    "aliases": [
+      "confusion",
+      "mental fatigue",
+      "cloudy head",
+      "can't focus",
+      "dizziness"
+    ],
+    "keywords": [
+      "concentration",
+      "focus",
+      "memory"
+    ],
+    "description": "Brain fog isn't a medical condition itself, but a symptom of other conditions. It involves memory problems, lack of mental clarity, and inability to focus.",
+    "common_symptoms": [
+      "Trouble concentrating",
+      "Forgetfulness",
+      "Mental fatigue",
+      "Cloudy thinking"
+    ],
+    "general_guidance": [
+      "Ensure you get 7-8 hours of sleep",
+      "Stay hydrated",
+      "Take breaks during work",
+      "Manage stress levels"
+    ],
+    "prevention": [
+      "Regular exercise",
+      "Healthy diet",
+      "Adequate sleep"
+    ],
+    "seek_medical_help": "If symptoms persist for a long time and affect daily life.",
+    "emergency_warning_signs": [
+      "Sudden confusion",
+      "Memory loss following a head injury",
+      "Inability to speak clearly"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "chickenpox",
+    "topic": "Chickenpox",
+    "aliases": [
+      "varicella",
+      "chicken pox",
+      "itchy bumps"
+    ],
+    "keywords": [
+      "blisters",
+      "rash",
+      "spots",
+      "itch"
+    ],
+    "description": "An infection caused by the varicella-zoster virus. It causes an itchy rash with small, fluid-filled blisters.",
+    "common_symptoms": [
+      "Itchy rash",
+      "Blisters",
+      "Fever",
+      "Tiredness and generally feeling unwell"
+    ],
+    "general_guidance": [
+      "Do not scratch the blisters",
+      "Apply calamine lotion",
+      "Take cool baths with baking soda or oatmeal"
+    ],
+    "prevention": [
+      "Vaccination is the most effective way to prevent chickenpox."
+    ],
+    "seek_medical_help": "If the rash spreads to the eyes, or if it becomes very red, warm, or tender (indicating a secondary infection).",
+    "emergency_warning_signs": [
+      "Difficulty breathing",
+      "Extreme drowsiness",
+      "Stiff neck",
+      "Severe vomiting"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "flu",
+    "topic": "Influenza (Flu)",
+    "aliases": [
+      "the flu",
+      "influenza",
+      "bad cold",
+      "fever and chills"
+    ],
+    "keywords": [
+      "respiratory",
+      "virus",
+      "chills",
+      "sweats"
+    ],
+    "description": "A viral infection that attacks your respiratory system \u2014 your nose, throat and lungs.",
+    "common_symptoms": [
+      "Fever",
+      "Aching muscles",
+      "Chills and sweats",
+      "Headache",
+      "Dry, persistent cough"
+    ],
+    "general_guidance": [
+      "Rest and sleep",
+      "Drink plenty of liquids",
+      "Stay warm"
+    ],
+    "prevention": [
+      "Annual flu vaccine",
+      "Wash hands frequently",
+      "Avoid contact with sick people"
+    ],
+    "seek_medical_help": "If you are at high risk of complications or if symptoms are severe and not improving.",
+    "emergency_warning_signs": [
+      "Difficulty breathing",
+      "Chest pain",
+      "Ongoing dizziness",
+      "Severe weakness or muscle pain"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "sleep_problem",
+    "topic": "Sleep Problems",
+    "aliases": [
+      "insomnia",
+      "can't sleep",
+      "trouble sleeping",
+      "waking up",
+      "sleep apnea"
+    ],
+    "keywords": [
+      "tired",
+      "fatigue",
+      "awake",
+      "restless"
+    ],
+    "description": "Conditions that affect sleep quality, timing, or duration and impact a person's ability to properly function while they are awake.",
+    "common_symptoms": [
+      "Difficulty falling asleep",
+      "Waking up often during the night",
+      "Waking up too early",
+      "Daytime sleepiness"
+    ],
+    "general_guidance": [
+      "Maintain a regular sleep schedule",
+      "Create a restful environment",
+      "Limit screen time before bed",
+      "Avoid caffeine late in the day"
+    ],
+    "prevention": [
+      "Establish a relaxing bedtime routine",
+      "Regular daytime exercise",
+      "Avoid heavy meals before bed"
+    ],
+    "seek_medical_help": "If sleep problems last more than a few weeks or affect your daily life.",
+    "emergency_warning_signs": [
+      "Pauses in breathing during sleep (sleep apnea)",
+      "Falling asleep at dangerous times (like driving)"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "healthy_lifestyle",
+    "topic": "Healthy Lifestyle",
+    "aliases": [
+      "diet",
+      "exercise",
+      "nutrition",
+      "wellness",
+      "fitness"
+    ],
+    "keywords": [
+      "healthy",
+      "active",
+      "food",
+      "lifestyle"
+    ],
+    "description": "A healthy lifestyle includes balanced nutrition, regular physical activity, adequate rest, and good mental health practices.",
+    "common_symptoms": [],
+    "general_guidance": [
+      "Eat a variety of foods including plenty of fruits and vegetables",
+      "Exercise regularly (aim for 150 minutes a week)",
+      "Drink plenty of water",
+      "Manage stress"
+    ],
+    "prevention": [
+      "Routine check-ups",
+      "Avoid smoking and excessive alcohol"
+    ],
+    "seek_medical_help": "Consult a doctor before starting any rigorous new exercise or diet program, especially if you have existing health conditions.",
+    "emergency_warning_signs": [],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  },
+  {
+    "intent": "dehydration",
+    "topic": "Dehydration",
+    "aliases": [
+      "dehydrated",
+      "lack of water",
+      "not drinking enough",
+      "thirst"
+    ],
+    "keywords": [
+      "water",
+      "fluid",
+      "hydration",
+      "dry"
+    ],
+    "description": "Dehydration occurs when you use or lose more fluid than you take in, and your body doesn't have enough water and other fluids to carry out its normal functions.",
+    "common_symptoms": [
+      "Extreme thirst",
+      "Less frequent urination",
+      "Dark-colored urine",
+      "Fatigue",
+      "Dizziness",
+      "Confusion"
+    ],
+    "general_guidance": [
+      "Drink plenty of water",
+      "Drink oral rehydration solutions",
+      "Avoid caffeine and alcohol",
+      "Rest in a cool area"
+    ],
+    "prevention": [
+      "Drink water throughout the day",
+      "Eat fluid-rich foods",
+      "Hydrate extra during exercise or hot weather"
+    ],
+    "seek_medical_help": "If you have had diarrhea for 24 hours, are irritable or disoriented, can't keep fluids down, or have bloody or black stool.",
+    "emergency_warning_signs": [
+      "Lack of urination for 8 hours",
+      "Seizures",
+      "Lethargy or confusion",
+      "Rapid heart rate"
+    ],
+    "disclaimer": "This is general educational information. Not a medical diagnosis."
+  }
+]

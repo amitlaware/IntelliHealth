@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Conversation History</h2>
+<div id="historyList" class="list-group mt-3"></div>
+<script>
+window.onload = async () => {
+    const res = await fetch('/api/conversations');
+    const convs = await res.json();
+    const list = document.getElementById('historyList');
+    convs.forEach(c => {
+        list.innerHTML += `<a href="/chat?id=${c.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            ${c.title} <small>${new Date(c.created_at).toLocaleString()}</small>
+        </a>`;
+    });
+};
+</script>
+{% endblock %}

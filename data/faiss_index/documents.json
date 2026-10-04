@@ -1,0 +1,37 @@
+[
+    {
+        "intent": "headache",
+        "topic": "Headache",
+        "content": "Topic: Headache\nAliases: head ache, migraine, head pain, pounding head\nKeywords: tension, throbbing, temples\nDescription: A headache is a pain in any region of the head. It can occur on one or both sides of the head.\nSymptoms: Pain in the head, Sensitivity to light, Nausea\nGuidance: Rest in a quiet, dark room, Stay hydrated, Try relaxation techniques\nSeek Help: If it is severe, sudden, or accompanied by fever, stiff neck, or confusion."
+    },
+    {
+        "intent": "brain_fog",
+        "topic": "Brain Fog",
+        "content": "Topic: Brain Fog\nAliases: confusion, mental fatigue, cloudy head, can't focus, dizziness\nKeywords: concentration, focus, memory\nDescription: Brain fog isn't a medical condition itself, but a symptom of other conditions. It involves memory problems, lack of mental clarity, and inability to focus.\nSymptoms: Trouble concentrating, Forgetfulness, Mental fatigue, Cloudy thinking\nGuidance: Ensure you get 7-8 hours of sleep, Stay hydrated, Take breaks during work, Manage stress levels\nSeek Help: If symptoms persist for a long time and affect daily life."
+    },
+    {
+        "intent": "chickenpox",
+        "topic": "Chickenpox",
+        "content": "Topic: Chickenpox\nAliases: varicella, chicken pox, itchy bumps\nKeywords: blisters, rash, spots, itch\nDescription: An infection caused by the varicella-zoster virus. It causes an itchy rash with small, fluid-filled blisters.\nSymptoms: Itchy rash, Blisters, Fever, Tiredness and generally feeling unwell\nGuidance: Do not scratch the blisters, Apply calamine lotion, Take cool baths with baking soda or oatmeal\nSeek Help: If the rash spreads to the eyes, or if it becomes very red, warm, or tender (indicating a secondary infection)."
+    },
+    {
+        "intent": "flu",
+        "topic": "Influenza (Flu)",
+        "content": "Topic: Influenza (Flu)\nAliases: the flu, influenza, bad cold, fever and chills\nKeywords: respiratory, virus, chills, sweats\nDescription: A viral infection that attacks your respiratory system \u2014 your nose, throat and lungs.\nSymptoms: Fever, Aching muscles, Chills and sweats, Headache, Dry, persistent cough\nGuidance: Rest and sleep, Drink plenty of liquids, Stay warm\nSeek Help: If you are at high risk of complications or if symptoms are severe and not improving."
+    },
+    {
+        "intent": "sleep_problem",
+        "topic": "Sleep Problems",
+        "content": "Topic: Sleep Problems\nAliases: insomnia, can't sleep, trouble sleeping, waking up, sleep apnea\nKeywords: tired, fatigue, awake, restless\nDescription: Conditions that affect sleep quality, timing, or duration and impact a person's ability to properly function while they are awake.\nSymptoms: Difficulty falling asleep, Waking up often during the night, Waking up too early, Daytime sleepiness\nGuidance: Maintain a regular sleep schedule, Create a restful environment, Limit screen time before bed, Avoid caffeine late in the day\nSeek Help: If sleep problems last more than a few weeks or affect your daily life."
+    },
+    {
+        "intent": "healthy_lifestyle",
+        "topic": "Healthy Lifestyle",
+        "content": "Topic: Healthy Lifestyle\nAliases: diet, exercise, nutrition, wellness, fitness\nKeywords: healthy, active, food, lifestyle\nDescription: A healthy lifestyle includes balanced nutrition, regular physical activity, adequate rest, and good mental health practices.\nSymptoms: \nGuidance: Eat a variety of foods including plenty of fruits and vegetables, Exercise regularly (aim for 150 minutes a week), Drink plenty of water, Manage stress\nSeek Help: Consult a doctor before starting any rigorous new exercise or diet program, especially if you have existing health conditions."
+    },
+    {
+        "intent": "dehydration",
+        "topic": "Dehydration",
+        "content": "Topic: Dehydration\nAliases: dehydrated, lack of water, not drinking enough, thirst\nKeywords: water, fluid, hydration, dry\nDescription: Dehydration occurs when you use or lose more fluid than you take in, and your body doesn't have enough water and other fluids to carry out its normal functions.\nSymptoms: Extreme thirst, Less frequent urination, Dark-colored urine, Fatigue, Dizziness, Confusion\nGuidance: Drink plenty of water, Drink oral rehydration solutions, Avoid caffeine and alcohol, Rest in a cool area\nSeek Help: If you have had diarrhea for 24 hours, are irritable or disoriented, can't keep fluids down, or have bloody or black stool."
+    }
+]

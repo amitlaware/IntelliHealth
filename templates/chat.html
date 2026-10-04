@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="chat-card">
+    <div class="chat-header">
+        <i class="fa-solid fa-robot text-primary"></i> AI Healthcare Assistant
+        <span class="badge bg-primary ms-auto rounded-pill" style="font-size: 0.75rem;">AI Insight</span>
+    </div>
+    <div class="chat-box" id="chatBox">
+        <div class="text-center text-muted mb-3"><small><i class="fa-solid fa-lock me-1"></i> End-to-end encrypted session</small></div>
+    </div>
+    <div class="chat-input-area">
+        <form id="chatForm">
+            <input type="hidden" id="convId" value="">
+            <div class="input-group">
+                <input type="text" id="chatInput" class="form-control" placeholder="Describe your symptoms or ask a health question..." required autocomplete="off">
+                <button type="submit" class="btn btn-primary px-4"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/static/js/chat.js"></script>
+{% endblock %}
